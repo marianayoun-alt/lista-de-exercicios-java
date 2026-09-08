@@ -1,23 +1,34 @@
-# Lista de Exercícios Java
+# Exercícios de Java
 
-Este repositório contém a resolução de exercícios de Fundamentos de Java, desenvolvidos como parte das atividades da disciplina.
+Este repositório reúne exercícios e atividades desenvolvidos em Java, com o objetivo de praticar e aplicar os conteúdos estudados.
+
+O repositório será atualizado conforme novos conteúdos e exercícios forem desenvolvidos.
 
 ## Conteúdos praticados
 
-Os exercícios estão organizados em cinco níveis e abordam conceitos como:
+As atividades abordam diferentes conceitos da linguagem Java, incluindo:
 
 - Tipos de dados e casting
 - Operadores aritméticos, relacionais e lógicos
 - Entrada de dados com Scanner
 - Cálculos e fórmulas
 - Conversão de valores e medidas
+- Estruturas de decisão com if, else if e else
+- Estrutura de decisão switch
+- Operadores lógicos aplicados a condições
 - Aplicação dos conceitos fundamentais de Java
 
 ## Organização
 
-Os exercícios estão separados por nível dentro do diretório:
+Os exercícios estão organizados por atividade e conteúdo dentro do diretório:
 
 `src/main/java/com/example/`
+
+Atualmente, o repositório possui:
+
+### Lista de Exercícios
+
+Exercícios organizados em cinco níveis de dificuldade:
 
 - `nivel1`
 - `nivel2`
@@ -25,12 +36,50 @@ Os exercícios estão separados por nível dentro do diretório:
 - `nivel4`
 - `nivel5`
 
+Esses níveis reúnem exercícios de fundamentos de Java, trabalhando entrada de dados, operadores, cálculos, conversões e lógica de programação.
+
+### Estruturas de Decisão
+
+A pasta:
+
+`estruturasdecisao`
+
+contém exercícios voltados à prática de estruturas de decisão em Java, utilizando recursos como:
+
+- `if`
+- `else`
+- `else if`
+- `switch`
+- Operadores relacionais
+- Operadores lógicos
+
+As questões trabalham diferentes situações para aplicar condições e tomadas de decisão dentro dos programas.
+
+## Estrutura do Projeto
+
+A organização principal do projeto é:
+
+    src/
+    └── main/
+        └── java/
+            └── com/
+                └── example/
+                    ├── nivel1/
+                    ├── nivel2/
+                    ├── nivel3/
+                    ├── nivel4/
+                    ├── nivel5/
+                    └── estruturasdecisao/
+
+Novas pastas poderão ser adicionadas conforme o desenvolvimento de outras atividades e conteúdos da disciplina.
+
 ## Tecnologias utilizadas
 
 - Java
 - Maven
 - Git
 - GitHub
+- Visual Studio Code
 
 ## Autora
 
