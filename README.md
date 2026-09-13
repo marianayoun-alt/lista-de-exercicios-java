@@ -16,6 +16,8 @@ As atividades abordam diferentes conceitos da linguagem Java, incluindo:
 - Estruturas de decisão com if, else if e else
 - Estrutura de decisão switch
 - Operadores lógicos aplicados a condições
+- Estruturas de repetição com while e do-while
+- Contadores e acumuladores
 - Aplicação dos conceitos fundamentais de Java
 
 ## Organização
@@ -55,6 +57,21 @@ contém exercícios voltados à prática de estruturas de decisão em Java, util
 
 As questões trabalham diferentes situações para aplicar condições e tomadas de decisão dentro dos programas.
 
+### Estruturas de Repetição
+
+A pasta:
+
+`estruturasrepeticao`
+
+contém atividades voltadas à prática de estruturas de repetição em Java, utilizando recursos como:
+
+- `while`
+- `do-while`
+- Contadores
+- Acumuladores
+
+As atividades trabalham situações como controle de entrada em eventos, produção industrial, soma de vendas, pesquisa de satisfação, caixa de supermercado e controle de estoque.
+
 ## Estrutura do Projeto
 
 A organização principal do projeto é:
@@ -69,7 +86,8 @@ A organização principal do projeto é:
                     ├── nivel3/
                     ├── nivel4/
                     ├── nivel5/
-                    └── estruturasdecisao/
+                    ├── estruturasdecisao/
+                    └── estruturasrepeticao/
 
 Novas pastas poderão ser adicionadas conforme o desenvolvimento de outras atividades e conteúdos da disciplina.
 
