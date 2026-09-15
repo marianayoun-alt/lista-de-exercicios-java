@@ -3,22 +3,20 @@ package com.example.estruturasrepeticao;
 import java.util.Scanner;
 
 public class Atividade4 {
-
     public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
+        int nota, contador = 0;
 
-        int cliente = 1;
-
-        while (cliente <= 10) {
-            System.out.print("Digite a nota de satisfação do cliente: ");
-            sc.nextInt();
-
-            cliente++;
+        while (contador < 10) {
+            contador++;
+            System.out.println("Cliente " + contador + ", avalie a loja de 1 a 10.");
+            nota = entrada.nextInt();
+            System.out.println("Nota registrada: " + nota);
         }
 
-        System.out.println("Quantidade de avaliações registradas: " + (cliente - 1));
+        System.out.println(contador + " clientes avaliaram a loja!");
 
-        sc.close();
+        entrada.close();
     }
 }

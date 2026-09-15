@@ -3,27 +3,25 @@ package com.example.estruturasrepeticao;
 import java.util.Scanner;
 
 public class Atividade5 {
-
     public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
-
-        double total = 0;
+        double venda = 0;
+        double soma = 0;
         String continuar;
 
         do {
-            System.out.print("Digite o valor do produto: ");
-            double valor = sc.nextDouble();
+            System.out.println("Informe o valor da venda: ");
+            venda = entrada.nextDouble();
+            soma = soma + venda;
 
-            total = total + valor;
-
-            System.out.print("Deseja continuar? (sim ou não): ");
-            continuar = sc.next();
+            System.out.println("Deseja continuar? (sim ou não)");
+            continuar = entrada.next();
 
         } while (continuar.equalsIgnoreCase("sim"));
 
-        System.out.println("Total das vendas: R$ " + total);
+        System.out.println("O total é de R$: " + soma);
 
-        sc.close();
+        entrada.close();
     }
 }
